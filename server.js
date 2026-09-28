@@ -26,8 +26,8 @@ const server = http.createServer((req, res) => {
         <title>Nimbus Deployment Test</title>
       </head>
       <body>
-        <h1>Nimbus Deployment Test</h1>
-        <p>Deployment successful.</p>
+        <h1>Nimbus Deployment Test-2</h1>
+        <p>Deployment successful for test 2.</p>
       </body>
     </html>
   `);
