@@ -1,3 +1,9 @@
 FROM node:22-alpine
 
-THIS IS INTENTIONALLY BROKEN
+WORKDIR /app
+
+COPY server.js .
+
+EXPOSE 3000
+
+CMD ["node", "server.js"]
