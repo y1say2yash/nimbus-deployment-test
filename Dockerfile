@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY server.js .
 
-RUN sleep 20000
+RUN sleep 60
 
 EXPOSE 3000
 
